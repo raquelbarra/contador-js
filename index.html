@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aplicativo contador: incrementa, decrementa e zera. Limite: 0 a 100. Informa se um número é par ou ímpar através das cores.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Raquel Barra">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+    <div class="geral">
+        <div class="secao-informacoes">
+            <div class="detalhes">
+                <h3>Informações importantes:</h3>
+                <ul>
+                    <li>Limite: 0 a 100</li>
+                    <li>Cor vermelha informa que o número é ímpar</li>
+                    <li>Cor verde informa que o número é par</li>
+                    <li>Cor azul exclusiva para o número zero</li>
+                </ul>
+                <p>Sucesso 💻</p>
+            </div>
+        </div>
+        <div class="secao-contador">
+            <div class="contador bg-azul">
+                <div class="numero txt-azul">0</div>
+                <div class="menu">
+                    <button class="decremento" disabled>Decrementar</button>
+                    <button class="zero">Zerar</button>
+                    <button class="incremento">Incrementar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
